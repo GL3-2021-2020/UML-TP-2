@@ -10,11 +10,11 @@ public class Chantilly extends ToppingDecorator{
 
     @Override
     public String description() {
-        return coupeGlacee.description() + "chantilly";
+        return "chantilly";
     }
 
     @Override
     public float cout() {
-        return coupeGlacee.cout() + 0.5f;
+        return 0.5f;
     }
 }

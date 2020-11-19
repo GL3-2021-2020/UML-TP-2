@@ -9,11 +9,11 @@ public class CoulisFraise extends ToppingDecorator{
 
     @Override
     public String description() {
-        return coupeGlacee.description() + "au colis de fraises fraiches";
+        return "au colis de fraises fraiches";
     }
 
     @Override
     public float cout() {
-        return coupeGlacee.cout() + 1;
+        return 1;
     }
 }

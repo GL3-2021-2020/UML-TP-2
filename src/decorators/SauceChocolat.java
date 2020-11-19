@@ -8,10 +8,10 @@ public class SauceChocolat extends ToppingDecorator{
     }
     @Override
     public String description() {
-        return coupeGlacee.description() + "et sa délicieuse sauce chocolat";
+        return  "et sa délicieuse sauce chocolat";
     }
     @Override
     public float cout() {
-        return coupeGlacee.cout() + 0.7f;
+        return 0.7f;
     }
 }

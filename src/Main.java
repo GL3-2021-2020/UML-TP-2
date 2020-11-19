@@ -17,9 +17,9 @@ public class Main {
         ToppingDecorator toppingDecoratorChantilly= new Chantilly(glace);
         ToppingDecorator toppingDecoratorSauce= new SauceChocolat(glace);
 
-        List<CoupeGlacee> cg = List.of(toppingDecoratorSauce, toppingDecoratorChantilly);
+        List<CoupeGlacee> cg = List.of(glace ,toppingDecoratorSauce, toppingDecoratorChantilly);
 
         Commande cmd = new Commande(cg);
-        cmd.publieFacture(new PrintWriter("TpUMLetDP2.txt"));
+        cmd.publieFacture();
     }
 }

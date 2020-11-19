@@ -14,14 +14,14 @@ public class Commande {
         this.lesCoupes = lesCoupes;
     }
 
-    public void publieFacture(PrintWriter writer) {
+    public void publieFacture() {
         float total = 0;
         for (Iterator it = this.lesCoupes.iterator(); it.hasNext(); ) {
             CoupeGlacee coupe = (CoupeGlacee) it.next();
-            writer.println(coupe.description() + " + " + coupe.cout());
+            System.out.println(coupe.description() + " + " + coupe.cout());
             total = total + coupe.cout();
         }
-        writer.println(" TOTAL : " + total);
+        System.out.println(" TOTAL : " + total);
 
     }
 }
