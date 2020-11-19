@@ -1,10 +1,10 @@
-package glace;
+package Models;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TripleChocolat extends CoupeGlacee {
-    public static final glace.TripleChocolat SINGLETON = new glace.TripleChocolat();
+    public static final Models.TripleChocolat SINGLETON = new Models.TripleChocolat();
     public List<Parfum> parfums = new ArrayList<>();
     private TripleChocolat() {
         this.parfums.add(Parfum.CHOCOLAIT);
@@ -17,6 +17,7 @@ public class TripleChocolat extends CoupeGlacee {
         return "Coupe chocolat blanc chocolat au lait chocolat noir";
     }
 
+    @Override
     public float cout() {
         return 6;
     }

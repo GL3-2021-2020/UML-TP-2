@@ -1,10 +1,11 @@
 package decorators;
 
-import glace.CoupeGlacee;
+import Models.CoupeGlacee;
+import Models.IProduit;
 
 public class SauceChocolat extends ToppingDecorator{
-    public SauceChocolat(CoupeGlacee coupeGlacee) {
-        super(coupeGlacee);
+    public SauceChocolat(IProduit produit) {
+        super(produit);
     }
     @Override
     public String description() {

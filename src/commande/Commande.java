@@ -1,25 +1,25 @@
 package commande;
 
-import glace.CoupeGlacee;
+import Models.CoupeGlacee;
+import Models.IProduit;
 
-import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.List;
 
 public class Commande {
 
-    List<CoupeGlacee> lesCoupes;
+    List<IProduit> lesProduits;
 
-    public Commande(List<CoupeGlacee> lesCoupes) {
-        this.lesCoupes = lesCoupes;
+    public Commande(List<IProduit> lesProduits) {
+        this.lesProduits = lesProduits;
     }
 
     public void publieFacture() {
         float total = 0;
-        for (Iterator it = this.lesCoupes.iterator(); it.hasNext(); ) {
-            CoupeGlacee coupe = (CoupeGlacee) it.next();
-            System.out.println(coupe.description() + " + " + coupe.cout());
-            total = total + coupe.cout();
+        for (Iterator it = this.lesProduits.iterator(); it.hasNext(); ) {
+            IProduit produit = (IProduit) it.next();
+            System.out.println(produit.description() + " + " + produit.cout());
+            total = total + produit.cout();
         }
         System.out.println(" TOTAL : " + total);
 

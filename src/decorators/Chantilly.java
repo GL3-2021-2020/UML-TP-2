@@ -1,11 +1,12 @@
 package decorators;
 
-import glace.CoupeGlacee;
+import Models.CoupeGlacee;
+import Models.IProduit;
 
 public class Chantilly extends ToppingDecorator{
 
-    public Chantilly(CoupeGlacee coupeGlacee) {
-        super(coupeGlacee);
+    public Chantilly(IProduit produit) {
+        super(produit);
     }
 
     @Override

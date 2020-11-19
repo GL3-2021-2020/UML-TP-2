@@ -13,6 +13,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Models/Boisson.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/Café.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/ChocolatChaud.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/CoupeGlacee.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/FruitsRouges.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/IProduit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/Parfum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Models/TripleChocolat.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/commande/Commande.java">
           <value>
             <set />
@@ -29,6 +69,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/decorators/SauceChocolat.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/decorators/ToppingDecorator.java">
           <value>
             <set />
           </value>

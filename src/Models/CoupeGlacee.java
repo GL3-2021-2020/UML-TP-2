@@ -1,9 +1,9 @@
-package glace;
+package Models;
 
 import java.util.Iterator;
 import java.util.List;
 
-public abstract class CoupeGlacee {
+public abstract class CoupeGlacee implements IProduit{
     protected List parfums;
     protected CoupeGlacee() {}
     public String description() {
@@ -14,6 +14,6 @@ public abstract class CoupeGlacee {
         }
         return sb.toString();
     }
-    public abstract float cout();
+
 
 }

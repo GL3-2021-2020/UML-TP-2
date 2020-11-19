@@ -1,10 +1,11 @@
 package decorators;
 
-import glace.CoupeGlacee;
+import Models.CoupeGlacee;
+import Models.IProduit;
 
 public class CoulisFraise extends ToppingDecorator{
-    public CoulisFraise(CoupeGlacee coupeGlacee) {
-        super(coupeGlacee);
+    public CoulisFraise(IProduit produit) {
+        super(produit);
     }
 
     @Override

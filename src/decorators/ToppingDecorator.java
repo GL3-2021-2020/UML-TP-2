@@ -1,21 +1,22 @@
 package decorators;
 
-import glace.CoupeGlacee;
+import Models.CoupeGlacee;
+import Models.IProduit;
 
-public class ToppingDecorator extends CoupeGlacee {
-    CoupeGlacee coupeGlacee;
+public class ToppingDecorator implements IProduit {
+    IProduit produit;
 
-    public ToppingDecorator(CoupeGlacee coupeGlacee) {
-        this.coupeGlacee = coupeGlacee;
+    public ToppingDecorator(IProduit produit) {
+        this.produit = produit;
     }
 
     @Override
     public String description() {
-        return coupeGlacee.description();
+        return produit.description();
     }
 
     @Override
     public float cout() {
-        return coupeGlacee.cout();
+        return produit.cout();
     }
 }

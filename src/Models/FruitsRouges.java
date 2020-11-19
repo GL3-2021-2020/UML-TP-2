@@ -1,4 +1,4 @@
-package glace;
+package Models;
 public class FruitsRouges extends CoupeGlacee {
     public static final FruitsRouges SINGLETON = new FruitsRouges();
     private FruitsRouges() {
@@ -12,6 +12,7 @@ public class FruitsRouges extends CoupeGlacee {
         return "Coupe fraise framboise cassis";
     }
 
+    @Override
     public float cout() {
         return 5.5f;
     }

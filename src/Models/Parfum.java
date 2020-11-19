@@ -1,4 +1,4 @@
-package glace;
+package Models;
 
 public enum Parfum {
     FRAISE,
